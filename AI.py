@@ -1,6 +1,6 @@
 from wit import Wit
 
-AI = Wit('DR7A5NXCWLHMYX6BIJ2XIFJWQRODTOHM')
+AI = Wit(TOKEN)
 
 def question(message):
     ans = AI.message(message)
