@@ -7,7 +7,7 @@ from Weather import weather
 from random import choice
 from Jokes import jokes
 
-bot = telebot.TeleBot('1108154557:AAGUcU7i3ttX60zprFpsMXN_KuNRkxfmkEo')
+bot = telebot.TeleBot(TOKEN)
 
 
 # ------Хендлер Стартовой кнопки с Главным Меню-------
